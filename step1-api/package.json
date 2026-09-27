@@ -1,0 +1,14 @@
+{
+  "name": "step1-api",
+  "version": "1.0.0",
+  "description": "Plain Express + MongoDB API — no Docker yet, that's your job next",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ioredis": "^6.0.0",
+    "mongoose": "^8.5.0"
+  }
+}
